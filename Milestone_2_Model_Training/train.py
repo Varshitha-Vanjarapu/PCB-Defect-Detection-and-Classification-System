@@ -7,7 +7,7 @@ print("Starting Training...")
 # Train the model. It automatically reads your data.yaml!
 results = model.train(
     data='data.yaml', 
-    epochs=50, 
+    epochs=250, 
     imgsz=640, 
     batch=16,
     plots=True # Generates beautiful graphs for your mentor presentation
