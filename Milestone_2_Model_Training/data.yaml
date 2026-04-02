@@ -1,0 +1,5 @@
+train: yolo_dataset/images/train
+val: yolo_dataset/images/val
+
+nc: 6
+names: ['Missing_hole', 'Mouse_bite', 'Open_circuit', 'Short', 'Spur', 'Spurious_copper']
